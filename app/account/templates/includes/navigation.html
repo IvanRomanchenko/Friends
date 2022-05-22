@@ -1,0 +1,27 @@
+{% load acc_extras %}
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+
+  {% if alert %}
+    <div class="col-12 alert alert-{{ alert.status }} text-white text-center font-weight-bold" role="alert" id="alert_status">
+      {{ alert.msg }}
+    </div>
+  {% endif %}
+
+  <div class="container">
+
+    {% go_to_main_page %}
+
+    <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 ms-lg-12 ps-lg-5" id="navigation">
+      <ul class="navbar-nav navbar-nav-hover w-100">
+        <li class="nav-item ms-lg-auto">
+          <a class="nav-link nav-link-icon me-2" href="{% url 'logout' %}">
+            <i class="fa fa-sign-out me-1"></i>
+            <p class="d-inline text-sm z-index-1 font-bold" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Logout">Logout</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

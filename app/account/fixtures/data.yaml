@@ -1,0 +1,70 @@
+- model: account.profile
+  pk: 1
+  fields:
+    username: admin
+    password: pbkdf2_sha256$320000$iKcYM2UMIblHl3ten3AXnL$deA5hzY/PjhdtbC7gRAHfAgssaoCYjTS+3R89+fuR4o=
+    first_name: Ivan
+    last_name: Romanchenko
+    birthday: 1993-9-19
+    biography:
+    contacts:
+    date_joined: 2022-5-5
+    is_staff: True
+    is_superuser: True
+
+- model: account.profile
+  pk: 2
+  fields:
+    username: peter_parker
+    password: pbkdf2_sha256$320000$OhoxZSwj8d1N9PpY4LrClB$qpAOgN3I5u2HBXx/VQtt9UvvBkOCLBAmJewMnN68Ogk=
+    first_name: Peter
+    last_name: Parker
+    birthday: 2001-8-10
+    biography: Peter Parker was born on August 10, 2001 in Forest Hills, Queens. For most of his life, 
+                he was raised by his uncle Ben Parker and aunt May Parker after the death of his parents.
+    contacts: [+380661234567, peter.parker@marvel.com]
+    date_joined: 2022-5-5
+
+- model: account.profile
+  pk: 3
+  fields:
+    username: drake_bell
+    password: pbkdf2_sha256$320000$OhoxZSwj8d1N9PpY4LrClB$qpAOgN3I5u2HBXx/VQtt9UvvBkOCLBAmJewMnN68Ogk=
+    first_name: Drake
+    last_name: Bell
+    birthday: 1986-6-27
+    biography: Drake Bell was born on June 27, 1986 in Orange County, California to Joe Bell and Robin Dotson. 
+                His mother, Robin, is a professional pool player. He has a stepfather Roy, also 2 older brothers - 
+                Robert and Travis. His cousin Health Bell is a pitcher for the San Diego Padres baseball team
+    contacts: [+1234567890101, big.d@gmail.com]
+    date_joined: 2022-5-5
+
+- model: account.profile
+  pk: 4
+  fields:
+    username: neil_patrick
+    password: pbkdf2_sha256$320000$OhoxZSwj8d1N9PpY4LrClB$qpAOgN3I5u2HBXx/VQtt9UvvBkOCLBAmJewMnN68Ogk=
+    first_name: Neil Patrick
+    last_name: Harris
+    birthday: 1973-6-15
+    biography: Harris was born in Albuquerque, New Mexico and raised in Ruidoso with older brother Brian and parents, 
+                Sheila Gale and Ronald Gene Harris. His parents were lawyers and also ran their own restaurant. 
+                He attended La Cueva High School, graduating with honors in 1991.
+    contacts: [+450235828394, n.harris@unkle.com]
+    date_joined: 2022-5-5
+
+- model: account.profile
+  pk: 5
+  fields:
+    username: janitor
+    password: pbkdf2_sha256$320000$OhoxZSwj8d1N9PpY4LrClB$qpAOgN3I5u2HBXx/VQtt9UvvBkOCLBAmJewMnN68Ogk=
+    first_name: Janitor
+    last_name: Senior
+    birthday: 1965-1-1
+    biography: In episode 16 of season 3, the Janitor recalls how his mother was cleaning the hero's room and possibly 
+                threw away his teddy bear without noticing the toy in the mess. It was after this incident that the 
+                Janitor decided to become a cleaner. In the third season (episode 7), during temporary deafness, 
+                Kelso replaces the radio announcer, at the end of the third season he temporarily takes the position 
+                of a security guard.
+    contacts: [+11111111111111, jani.tor@clinic.com]
+    date_joined: 2022-5-5
